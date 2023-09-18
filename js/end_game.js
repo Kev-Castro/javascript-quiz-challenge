@@ -44,7 +44,7 @@ function gameOver() {
 
     var go_back = document.createElement('a');
     form.appendChild(go_back);
-    go_back.textContent = 'Go Back';
+    go_back.textContent = 'Retake Quiz';
 
     go_back.id = 'go_back_btn';
     go_back.href = 'index.html';
